@@ -4,4 +4,4 @@
 
 Used commands:
 * Create release branch -> `mvn gitflow:release-start -DuseSnapshotInRelease=true`
-* Integrate release branch into main & delete release branch -> `mvn gitflow:release-finish -DuseSnapshotInRelease=true`
+* Integrate & remove release branch -> `mvn gitflow:release-finish -DuseSnapshotInRelease=true`
